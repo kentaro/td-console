@@ -13,7 +13,7 @@ app.use(express.bodyParser());
 app.get('/', function (req, res) {
     res.sendfile(__dirname + '/public/index.html');
 });
-app.get('/javascripts/td-panel.js', function (req, res) {
+app.get('/javascripts/td-console.js', function (req, res) {
     res.sendfile(__dirname + '/public/javascripts/td-console.js');
 });
 
